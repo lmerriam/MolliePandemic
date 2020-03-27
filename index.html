@@ -15,12 +15,16 @@
 <body>
   <!-- <script src="js/scripts.js"></script> -->
   <a href="https://meet.google.com/dvk-etrh-ado">
-    <video class="video" loop autoplay>
+    <video class="video" id="vid" loop autoplay>
       <source src="mollie.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <div class="overlay"><h2>Click here to join Mollie's Pandemic Party</h2></div>
   </a>
+
+  <script>
+    document.getElementById('vid').play();
+  </script>
 
 
 </body>
